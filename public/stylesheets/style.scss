@@ -1,7 +1,82 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
-  overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+.sofermat__header {
+  position: sticky;
+  top: 0;
+
+  .sofermat__navbar {
+    margin: 0;
+    background: #212121;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 65px;
+  
+    .navbar__logo {
+      padding: 0;
+      margin: 0;
+  
+      img {
+        height: 100px;
+        width: auto;
+      }
+    }
+  
+    .navbar__items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style-type: none;
+  
+      .navbar__item {
+        margin: 0 2.5px;
+        
+        a {
+          padding: 10px;
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition-property: color;
+          transition-duration: .5s;
+
+          &:hover {
+            color: #96C030;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sofermat__hero {
+  position: relative;
+  > img {
+    width: 100%;
+  }
+
+  .white__sail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba($color: lightgray, $alpha: .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

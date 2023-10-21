@@ -1,6 +1,31 @@
 {% extends 'layout.twig' %}
 
 {% block body %}
-  <h1>{{title}}</h1>
-  <p>Welcome to {{title}}</p>
+
+  <header class="sofermat__header">
+
+    <nav class="sofermat__navbar">
+      <figure class="navbar__logo">
+        <img src="images/sofermat.png" alt="Sofermat logo" />
+      </figure>
+
+      <ul class="navbar__items">
+        <li class="navbar__item"><a href="{{base_url}}">Présentation</a></li>
+        <li class="navbar__item"><a href="{{base_url}}/#">Nos Activités</a></li>
+        <li class="navbar__item"><a href="{{base_url}}/#">Contact</a></li>
+        <li class="navbar__item"><a href="{{base_url}}/#"><img src="images/location.png" alt="Location Icon" /></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+      <figure class="sofermat__hero">
+        <img src="images/hero.png" />
+      
+        <div class="white__sail">
+            <figure>
+              <img src="images/sofermat.png">
+            </figure>
+        </div>
+      </figure>
+  </main>
 {% endblock %}
