@@ -116,7 +116,7 @@
 						<p class="activity__content">Travaux de démolition<br/>
 							Travaux de déconstruction</p>
 
-             <p class="activity__note">Dans le respect des normes et dans un souci de développement durable.</p> 
+						<p class="activity__note">Dans le respect des normes et dans un souci de développement durable.</p>
 					</div>
 				</li>
 				<li class="activity">
@@ -134,11 +134,42 @@
 			</ul>
 		</section>
 
+		<section class="sofermat__section sofermat__contact">
+			<h2>Contactez-nous</h2>
+			<form class="contact__form" id="contact-form">
+				<div class="form__group">
+					<input type="text" id="name" name="name" placeholder="Nom" required>
+				</div>
+				<div class="form__group">
+					<input type="email" id="email" name="email" placeholder="Adresse email" required>
+				</div>
+        
+        
+				<div class="form__group">
+					<input type="text" id="tel" name="tel" placeholder="Téléphone/Fax" required>
+				</div>
+				<div class="form__group">
+					<textarea id="message" name="message" placeholder="Message" required></textarea>
+				</div>
+				<div class="form__group">
+					<button type="submit">Envoyer</button>
+				</div>
+
+				<p class="form__note">En cliquant sur “Envoyez”, vous acceptez que nous puissons traiter vos informations personnelles. Et vous acceptez notre politique d’utilisation ainsi que notre politique de confidentialité.</p>
+			</form>
+		</section>
+
 
 	</main>
 
-  <footer>
-    <p>© SARL SOFERMAT | 1973 - 2023</p>
-    <p><a href="#">Mentions légales</a> | <a href="#">Politique d’utilisation</a> | <a href="#">Politique de confidentialité</a></p>
-  </footer>
+	<footer>
+		<p>© SARL SOFERMAT | 1973 - 2023</p>
+		<p>
+			<a href="#">Mentions légales</a>
+			|
+			<a href="#">Politique d’utilisation</a>
+			|
+			<a href="#">Politique de confidentialité</a>
+		</p>
+	</footer>
 {% endblock %}
