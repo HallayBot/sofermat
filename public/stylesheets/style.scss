@@ -15,6 +15,7 @@ figure {
 .sofermat__header {
   position: sticky;
   top: 0;
+  z-index: 100;
 
   .sofermat__navbar {
     margin: 0;
@@ -63,8 +64,8 @@ figure {
 
 .sofermat__hero {
   position: relative;
-  height: auto;
-  max-height: 70vh;
+  height: 50vh;
+  min-height: 500px;
 
   > img {
     width: 100%;
@@ -88,6 +89,7 @@ figure {
     justify-content: center;
 
     figure img {
+      width: 350px;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       // disable user select
       -webkit-touch-callout: none; /* iOS Safari */
