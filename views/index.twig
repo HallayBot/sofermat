@@ -2,30 +2,51 @@
 
 {% block body %}
 
-  <header class="sofermat__header">
+	<header class="sofermat__header">
 
-    <nav class="sofermat__navbar">
-      <figure class="navbar__logo">
-        <img src="images/sofermat.png" alt="Sofermat logo" />
-      </figure>
+		<nav class="sofermat__navbar">
+			<figure class="navbar__logo">
+				<img src="images/sofermat.png" alt="Sofermat logo"/>
+			</figure>
 
-      <ul class="navbar__items">
-        <li class="navbar__item"><a href="{{base_url}}">Présentation</a></li>
-        <li class="navbar__item"><a href="{{base_url}}/#">Nos Activités</a></li>
-        <li class="navbar__item"><a href="{{base_url}}/#">Contact</a></li>
-        <li class="navbar__item"><a href="{{base_url}}/#"><img src="images/location.png" alt="Location Icon" /></a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-      <figure class="sofermat__hero">
-        <img src="images/hero.png" />
-      
-        <div class="white__sail">
-            <figure>
-              <img src="images/sofermat.png">
-            </figure>
-        </div>
-      </figure>
-  </main>
+			<ul class="navbar__items">
+				<li class="navbar__item">
+					<a href="{{base_url}}">Présentation</a>
+				</li>
+				<li class="navbar__item">
+					<a href="{{base_url}}/#">Nos Activités</a>
+				</li>
+				<li class="navbar__item">
+					<a href="{{base_url}}/#">Contact</a>
+				</li>
+				<li class="navbar__item">
+					<a href="{{base_url}}/#"><img src="images/location.png" alt="Location Icon"/></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<figure class="sofermat__hero">
+				<img src="images/hero.png"/>
+
+				<div class="white__sail">
+					<figure>
+						<img src="images/sofermat.png">
+					</figure>
+				</div>
+			</figure>
+		</section>
+
+    <section class="sofermat__section sofermat__about">
+      <h2>Qui Sommes-Nous ?</h2>
+      <p>L’entreprise SOFERMAT est présente à La Bâthie, près d'Albertville et dans le département de la Savoie depuis 1973.</p>
+      <p>C’est une entreprise artisanale familiale qui intervient principalement dans les domaines du terrassement et des travaux publics, mais aussi dans celui du transport routier.</p>
+      <p>Nous sommes au service des particuliers, des collectivités locales, des centrales hydroélectriques, des constructeurs immobiliers, des grandes entreprises . Notre société intervient au niveau de la réalisation de tous les travaux de terrassement, de voiries et de réseaux, de la réalisation de lotissement, de la petite maçonnerie, mais également pour effectuer tous les transports de matériaux ainsi que les travaux de déneigements.</p>
+      <p>C'est une équipe de quatre à cinq personnes expérimentées à l’année et du matériel à la pointe de la technologie, pelles mécaniques, cribles, camion, laser double pente...</p>
+      <p>Depuis plusieurs années notre entreprise s’engage dans une démarche écologique pour le recyclage des matériaux de ses chantiers. En effet tous les déchets inertes des chantiers sont rapatriés sur notre site de recyclage sur la commune de La Bathie afin d’être concassés, criblés, puis réutilisés sur d’autres chantiers.</p>
+    </section>
+
+
+	</main>
 {% endblock %}
