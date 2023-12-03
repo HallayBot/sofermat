@@ -54,6 +54,7 @@ figure {
   text-transform: uppercase;
   transition-property: color;
   transition-duration: 0.5s;
+  scroll-behavior: smooth;
 }
 .sofermat__header .sofermat__navbar .navbar__items .navbar__item a:hover {
   color: #96c030;
